@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("Digital Twin Transformer Risk Simulator")
 st.caption("Dashboard hasil simulasi dari Google Colab")
 
-risk_results = pd.read_csv("scenario_risk_results.csv")
+risk_results = pd.read_csv("scenario_results.csv")
 monte_carlo_summary = pd.read_csv("monte_carlo_summary.csv")
 
 st.sidebar.header("Filter")
